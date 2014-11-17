@@ -1,0 +1,30 @@
+{
+  "name": "sudp",
+  "version": "0.0.0",
+  "description": "Secure-UDP implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "udp",
+    "secure",
+    "ecdh",
+    "ssl",
+    "tls"
+  ],
+  "repositories": [{
+     "type": "git", 
+	 "url": "https://github.com/DevelopmentIL/sudp.git"
+  }],
+  "author": "Moshe Simantov <ms@development.co.i>",
+  "license": "MIT",
+  "dependencies": {
+    "jsbn": "0.0.0",
+    "ecdh": "0.0.0"
+  },
+  "devDependencies": {
+    "should": "~3.3.1",
+    "mocha": "~1.18.2"
+  }
+}
