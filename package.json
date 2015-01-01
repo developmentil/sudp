@@ -1,6 +1,6 @@
 {
   "name": "sudp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Secure-UDP implementation",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "jsbn": "0.0.0",
-    "ecdh": "0.0.0"
+    "ecdh": "~0.1.0"
   },
   "devDependencies": {
     "should": "~3.3.1",
